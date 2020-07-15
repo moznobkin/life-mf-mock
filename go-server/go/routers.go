@@ -43,42 +43,42 @@ func NewRouter() *mux.Router {
 }
 
 func Index(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Hello World!")
+	fmt.Fprintf(w, "This is life.megafon.ru/personal-offers/ internal api mock")
 }
 
 var routes = Routes{
 	Route{
 		"Index",
 		"GET",
-		"/MyTeam889/Life/0.0.1/",
+		"/api",
 		Index,
 	},
 
 	Route{
 		"DeleteSubscription",
 		strings.ToUpper("Delete"),
-		"/MyTeam889/Life/0.0.1/API/v1/subscriptions/{serviceid}",
+		"/API/v1/subscriptions/{serviceid}",
 		DeleteSubscription,
 	},
 
 	Route{
 		"GetOfferss",
 		strings.ToUpper("Get"),
-		"/MyTeam889/Life/0.0.1/API/v1/offerslist",
+		"/API/v1/offerslist",
 		GetOfferss,
 	},
 
 	Route{
 		"GetSubscriptions",
 		strings.ToUpper("Get"),
-		"/MyTeam889/Life/0.0.1/API/v1/subscriptionslist",
+		"/API/v1/subscriptionslist",
 		GetSubscriptions,
 	},
 
 	Route{
 		"PostSubscription",
 		strings.ToUpper("Post"),
-		"/MyTeam889/Life/0.0.1/API/v1/subscriptions/{serviceid}",
+		"/API/v1/subscriptions/{serviceid}",
 		PostSubscription,
 	},
 }
