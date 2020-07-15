@@ -16,7 +16,7 @@ type Subscription struct {
 	// VAS-P subscription identifier
 	ServiceId string `json:"serviceId,omitempty"`
 	// cost of subscription
-	Cost *BigDecimal `json:"cost,omitempty"`
+	Cost float32 `json:"cost,omitempty"`
 	// recurrent payment
 	Pay string `json:"pay,omitempty"`
 }
