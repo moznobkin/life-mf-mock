@@ -62,10 +62,10 @@ var routes = Routes{
 	},
 
 	Route{
-		"GetOfferss",
+		"GetOffers",
 		strings.ToUpper("Get"),
 		"/API/v1/offerslist",
-		GetOfferss,
+		GetOffers,
 	},
 
 	Route{

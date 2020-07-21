@@ -9,14 +9,13 @@
 package swagger
 
 type Subscription struct {
-
 	Heading string `json:"heading,omitempty"`
 	// short description
 	Description string `json:"description,omitempty"`
 	// VAS-P subscription identifier
-	ServiceId string `json:"serviceId,omitempty"`
+	ServiceID string `json:"serviceId,omitempty"`
 	// cost of subscription
-	Cost float32 `json:"cost,omitempty"`
+	Cost string `json:"cost,omitempty"`
 	// recurrent payment
 	Pay string `json:"pay,omitempty"`
 }

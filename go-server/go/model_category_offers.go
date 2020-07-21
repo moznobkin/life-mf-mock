@@ -14,5 +14,5 @@ type CategoryOffers struct {
 	// reference to the logo image
 	Categorylogo string `json:"categorylogo,omitempty"`
 
-	Offers *CategoryOffersOffers `json:"offers,omitempty"`
+	Offers []CategoryOffersOffers `json:"offers,omitempty"`
 }

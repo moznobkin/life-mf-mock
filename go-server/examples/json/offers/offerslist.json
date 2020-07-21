@@ -1,0 +1,49 @@
+ [
+      {  
+      "categoryname": "Интересное",
+      "categorylogo": "http://111.jpg",
+      "offers": [
+          {
+          "id": 1233424,        
+          "name": "Подписка на Яндекс.Музыку",
+          "shortdescription": "Подпишись на Яндекс.Музыку" ,
+          "detaileddescription": "Яндекс.Музыка открывает доступ к 100000000 музыкальных треков" ,
+          "miniature": "http://111.jpg" ,
+          "header": "http://111.jpg" ,
+          "offertype ": "VAS-P" ,
+          "serviceurl": "https://music.yandex.ru/" ,
+          "buttontext": "Подключайся" ,
+          "priority ": 1 ,
+          "labels": [
+                { 
+                  "labelname": "Выбор пользователей" ,
+                  "labelcolor": "444189"
+                },
+                { 
+                  "labelname": "Новое" ,
+                  "labelcolor": "34AAF2"
+                }
+            ],
+          "subscriptions": [
+                { 
+                  "heading": "Подписка на неделю" ,
+                  "description": "Подписка на неделю за 100 рублей" ,
+                  "serviceID": "1D-668597439-ERT" ,
+                  "cost": "Подключение бесплатное" ,
+                  "pay": "100 рублей в неделю"
+                },
+                { 
+                  "heading": "Подписка на месяц" ,
+                  "description": "Подписка на месяц за 239 рублей" ,
+                  "serviceID": "1D-668597438-ERY" ,
+                  "cost": "Подключение бесплатное" ,
+                  "pay": "239 рублей в месяц"
+                  }
+               ]
+            }
+        ]
+      }
+
+      ] 
+
+    

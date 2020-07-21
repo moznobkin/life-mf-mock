@@ -11,7 +11,7 @@ FROM alpine:3.10
 LABEL maintainer="Michael Oznobkin <oznobkin@gmail.com>"
 
 COPY --from=builder /go/bin/life-mf-mock.exe /usr/bin/life-mf-mock.exe
-COPY --from=builder /go/src/github.com/moznobkin/life-mf-mock/examples/json/  /usr/examples/json/
+COPY --from=builder /go/src/github.com/moznobkin/life-mf-mock/examples/json/  /usr/bin/examples/json/
 
 WORKDIR /usr/bin
 

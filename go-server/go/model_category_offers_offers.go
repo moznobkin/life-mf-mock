@@ -10,7 +10,7 @@ package swagger
 
 type CategoryOffersOffers struct {
 	// unique identifier
-	Id string `json:"id,omitempty"`
+	Id int64 `json:"id,omitempty"`
 	// offer name
 	Name string `json:"name,omitempty"`
 	// short description
@@ -28,7 +28,7 @@ type CategoryOffersOffers struct {
 	// the text of the button
 	Buttontext string `json:"buttontext,omitempty"`
 	// offer priority, bigger number means higher priority
-	Priority string `json:"priority,omitempty"`
+	Priority int `json:"priority,omitempty"`
 	// array of labels data which will be used for offer
 	Labels []CategoryOffersOffersLabels `json:"labels,omitempty"`
 

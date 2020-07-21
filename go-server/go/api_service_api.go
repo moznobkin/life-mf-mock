@@ -9,16 +9,54 @@
 package swagger
 
 import (
+	"encoding/json"
+	"fmt"
+	"io/ioutil"
 	"net/http"
+	"os"
 )
 
 func DeleteSubscription(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json; charset=UTF-8")
+
 	w.WriteHeader(http.StatusOK)
 }
 
-func GetOfferss(w http.ResponseWriter, r *http.Request) {
+func GetOffers(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json; charset=UTF-8")
+
+	files, err := ioutil.ReadDir("./examples/json/offers/")
+	if err != nil {
+		panic(err)
+	}
+
+	categories := []CategoryOffers{}
+
+	for _, f := range files {
+		fs, err := os.Open(fmt.Sprintf("./examples/json/offers/%s", f.Name()))
+		if err != nil {
+			panic(err)
+		}
+		var filecategories []CategoryOffers
+		// Try to decode the request body into the struct. If there is an error,
+		// respond to the client with the error message and a 400 status code.
+
+		err1 := json.NewDecoder(fs).Decode(&filecategories)
+		//var co CategoryOffersOffers
+		//err1 := json.NewDecoder(fs).Decode(&co)
+		if err1 != nil {
+
+			panic(err1)
+		}
+		categories = append(categories, filecategories...)
+	}
+	response := OffersListResponse{Status: "OK", Category: categories}
+
+	err2 := json.NewEncoder(w).Encode(&response)
+	if err2 != nil {
+		panic(err)
+	}
+
 	w.WriteHeader(http.StatusOK)
 }
 
