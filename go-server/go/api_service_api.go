@@ -22,33 +22,55 @@ func DeleteSubscription(w http.ResponseWriter, r *http.Request) {
 	w.WriteHeader(http.StatusOK)
 }
 
-func GetOffers(w http.ResponseWriter, r *http.Request) {
-	w.Header().Set("Content-Type", "application/json; charset=UTF-8")
-
-	files, err := ioutil.ReadDir("./examples/json/offers/")
+func readOffers(path string) ([]CategoryOffers, error) {
+	files, err := ioutil.ReadDir(path)
 	if err != nil {
-		panic(err)
+		return nil, err
 	}
-
 	categories := []CategoryOffers{}
-
 	for _, f := range files {
 		fs, err := os.Open(fmt.Sprintf("./examples/json/offers/%s", f.Name()))
 		if err != nil {
-			panic(err)
+			return nil, err
 		}
 		var filecategories []CategoryOffers
 		// Try to decode the request body into the struct. If there is an error,
 		// respond to the client with the error message and a 400 status code.
 
-		err1 := json.NewDecoder(fs).Decode(&filecategories)
+		err = json.NewDecoder(fs).Decode(&filecategories)
 		//var co CategoryOffersOffers
 		//err1 := json.NewDecoder(fs).Decode(&co)
-		if err1 != nil {
-
-			panic(err1)
+		if err != nil {
+			return nil, err
 		}
 		categories = append(categories, filecategories...)
+	}
+	return categories, nil
+}
+func GetOffers(w http.ResponseWriter, r *http.Request) {
+	w.Header().Set("Content-Type", "application/json; charset=UTF-8")
+
+	catName := r.URL.Query().Get("category")
+	msisdn := r.URL.Query().Get("msisdn")
+	categories, err := readOffers("./examples/json/offers/")
+	if err != nil {
+		panic(err)
+	}
+	if msisdn != "" {
+		msisdnCategories, err := readOffers(fmt.Sprintf("./examples/json/offers/%s/", msisdn))
+		if err == nil {
+			categories = append(categories, msisdnCategories...)
+		}
+	}
+	if catName != "" {
+		fiiteredCategories := categories[:0]
+
+		for _, x := range categories {
+			if x.Categoryname == catName {
+				fiiteredCategories = append(fiiteredCategories, x)
+			}
+		}
+		categories = fiiteredCategories
 	}
 	response := OffersListResponse{Status: "OK", Category: categories}
 
