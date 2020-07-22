@@ -46,39 +46,41 @@ func Index(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintf(w, "This is life.megafon.ru/personal-offers/ internal api mock")
 }
 
+const basePath = "/life/api/v1"
+
 var routes = Routes{
 	Route{
 		"Index",
 		"GET",
-		"/api",
+		basePath,
 		Index,
 	},
 
 	Route{
 		"DeleteSubscription",
 		strings.ToUpper("Delete"),
-		"/API/v1/subscriptions/{serviceid}",
+		basePath + "/subscriptions/{serviceid}",
 		DeleteSubscription,
 	},
 
 	Route{
 		"GetOffers",
 		strings.ToUpper("Get"),
-		"/API/v1/offerslist",
+		basePath + "/offerslist",
 		GetOffers,
 	},
 
 	Route{
 		"GetSubscriptions",
 		strings.ToUpper("Get"),
-		"/API/v1/subscriptionslist",
+		basePath + "/subscriptionslist",
 		GetSubscriptions,
 	},
 
 	Route{
 		"PostSubscription",
 		strings.ToUpper("Post"),
-		"/API/v1/subscriptions/{serviceid}",
+		basePath + "/subscriptions/{serviceid}",
 		PostSubscription,
 	},
 }
