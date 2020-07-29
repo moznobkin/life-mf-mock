@@ -42,7 +42,187 @@
                ]
             }
         ]
-      }
+      },
+            {
+                "categoryname": "Посмотреть",
+                "categorylogo": "https://life.megafon.ru/personal-offers/uploads/categories/ecfd6f61-056c-48a6-9b7a-7933289dcd84.png",
+                "offers": [
+                    {
+                        "id": 1,
+                        "name": "МегаФон ТВ",
+                        "shortdescription": "Тысячи фильмов, сериалов, ТВ-каналов всегда с вами на любом устройстве",
+                        "detaileddescription": "Онлайн-кинотеатр и телевидение, которые всегда с вами: 4000+ фильмов, 1000+ лучших российских и зарубежных сериалов, 250+ ТВ-каналов онлайн на любой вкуc. Выбирайте пакеты с промопериодом и смотрите бесплатно! Доступно на смартфонах, планшетах, ПК, телевизорах с функцией Smart TV и даже проекторах Cinemood. Загружайте видео на телефон или планшет и смотрите даже без доступа в интернет.",
+                        "miniature": "https://life.megafon.ru/personal-offers/uploads/offers/ef3d2f03-367e-46e5-82b4-09707ae41c97.jpeg",
+                        "header": "https://life.megafon.ru/personal-offers/uploads/offers/df929920-dca2-46fa-85c6-17cca2eba514.jpeg",
+                        "offertype": "url",
+                        "serviceurl": "https://megafon.tv/?utm_source=cp&utm_medium=web&utm_campaign=cp_tv",
+                        "buttontext": "Смотреть",
+                        "priority": 1,
+                        "labels": []
+                    },
+                    {
+                        "id": 57,
+                        "name": "START",
+                        "shortdescription": "Эксклюзивные премьеры, главные фильмы и сериалы на русском языке",
+                        "detaileddescription": "От советских драм до современных боевиков, от «Кухни» до «Гранда», от классической анимации до мультсериала «Маша и медведь», от guilty pleasure мелодрам про золушек до жёстких и откровенных «Содержанок» – всё это есть в пакете START. Смотрите первыми новые серии любимых сериалов, наслаждайтесь драмами без цензуры в версии «18+» и получите шанс увидеть то, что не покажут по ТВ. Доступно на смартфонах, планшетах, ПК, телевизорах с функцией Smart TV и даже проекторах Cinemood. Загружайте видео на телефон или планшет и смотрите даже без доступа в интернет.",
+                        "miniature": "https://life.megafon.ru/personal-offers/uploads/offers/f8c722c7-120c-4c91-8b5c-cf4df190d683.jpeg",
+                        "header": "https://life.megafon.ru/personal-offers/uploads/offers/556b5518-3689-4a01-8f0f-c42441af5ee3.jpeg",
+                        "offertype": "url",
+                        "serviceurl": "https://start.ru/?utm_source=megafon&utm_medium=web&utm_campaign=startmegafon",
+                        "buttontext": "Смотреть",
+                        "priority": 2,
+                        "labels": []
+                    }
+                ]
+            },
+            {
+                "categoryname": "Послушать",
+                "categorylogo": "https://life.megafon.ru/personal-offers/uploads/categories/7a152234-4762-4618-8a52-97695ade9227.png",
+                "offers": [
+                    {
+                        "id": 4,
+                        "name": "BOOM",
+                        "shortdescription": "Ваш плейлист из ВКонтакте или Одноклассников без ограничений",
+                        "detaileddescription": "Специальные условия: безлимитный интернет в приложении «BOOM» и 30 дней бесплатно при первом подключении. Составляйте плейлисты, добавляйте любимые треки, скачивайте и слушайте новинки. С приложением вы получите простой и быстрый доступ к персональным рекомендациям и эксклюзивным премьерам, сможете наслаждаться любимой музыкой, слушать аудиозаписи из ВК и ОК, добавленные лично вами, а также слушать плейлисты друзей и групп. С 31-го дня доступ к сервису сохраняется за 149 ₽ в месяц.",
+                        "miniature": "https://life.megafon.ru/personal-offers/uploads/offers/eb25ff94-01c0-4979-aa7c-fb87198920e5.jpeg",
+                        "header": "https://life.megafon.ru/personal-offers/uploads/offers/77e9fc9b-aaee-47d4-a9d0-f8987bb2e34a.jpeg",
+                        "offertype": "url",
+                        "serviceurl": "https://trk.mail.ru/c/xt1vy7",
+                        "buttontext": "Слушать",
+                        "priority": 1,
+                        "labels": []
+                    },
+                    {
+                        "id": 8,
+                        "name": "Яндекс.Музыка",
+                        "shortdescription": "Музыкальные новинки, любимые треки и подкасты с безлимитным интернетом",
+                        "detaileddescription": "Специальные условия: безлимитный интернет в приложении «Яндекс.Музыка» и 30 дней бесплатно при первом подключении. Популярная музыка и подкасты в один клик, а также плейлисты по жанрам и ситуациям без рекламы.",
+                        "miniature": "https://life.megafon.ru/personal-offers/uploads/offers/b6c0046c-0290-4883-8616-df5d5b5bf657.jpeg",
+                        "header": "https://life.megafon.ru/personal-offers/uploads/offers/113cfacb-37c9-4544-b488-41fd63e17c45.jpeg",
+                        "offertype": "url",
+                        "serviceurl": "http://go.onelink.me/6j7u?pid=megafon&c=megafon&utm_source=megafoncp&utm_medium=web&utm_campaign=cp_yandexmusic",
+                        "buttontext": "Слушать",
+                        "priority": 5,
+                        "labels": []
+                    },
+                    {
+                        "id": 9,
+                        "name": "Deezer",
+                        "shortdescription": "Саундтреки на каждый день: выбирайте из 56 млн треков",
+                        "detaileddescription": "Специальные условия: безлимитный интернет в приложении Deezer и 3 дня бесплатно при первом подключении. Следующие 4 месяца плата составит всего 35 рублей в месяц. Наслаждайтесь 56+ миллионами треков в популярном международном сервисе. С 5-го месяца доступ к сервису сохраняется за 169 ₽ в месяц.",
+                        "miniature": "https://life.megafon.ru/personal-offers/uploads/offers/c60ce62d-5902-4942-bf47-4052e5fee085.jpeg",
+                        "header": "https://life.megafon.ru/personal-offers/uploads/offers/46ee08c3-73b3-4324-b759-cd040b05c0de.jpeg",
+                        "offertype": "url",
+                        "serviceurl": "http://join30.dzrpromo.ru/subscribe/?cr=102780",
+                        "buttontext": "Слушать",
+                        "priority": 6,
+                        "labels": []
+                    }
+                ]
+            },
+            {
+                "categoryname": "Поиграть",
+                "categorylogo": "https://life.megafon.ru/personal-offers/uploads/categories/07b602c2-0206-4a5c-8d74-01e68cb2ce93.png",
+                "offers": [
+                    {
+                        "id": 10,
+                        "name": "Игры с Mail.ru",
+                        "shortdescription": "Скидки на оружие и уникальные наборы для игр free-to-play",
+                        "detaileddescription": "Давно мечтали о призрачном единороге? Играйте и получайте скидки на товары и уникальные игровые наборы в Warface, CrossFire и ArcheAge. Не нужно привязывать банковскую карту — покупки удобно оплачивать со счёта телефона.",
+                        "miniature": "https://life.megafon.ru/personal-offers/uploads/offers/783fa293-a243-4324-a7c0-4df68299dc3d.jpeg",
+                        "header": "https://life.megafon.ru/personal-offers/uploads/offers/d07498b6-d292-4232-964d-c9a023372cf8.jpeg",
+                        "offertype": "url",
+                        "serviceurl": "http://games.megafon.ru/my.games/games?utm_source=cp&utm_medium=web&utm_campaign=cp_mygames",
+                        "buttontext": "Подробнее",
+                        "priority": 2,
+                        "labels": []
+                    }
+                ]
+            },
+            {
+                "categoryname": "Полезное",
+                "categorylogo": "https://life.megafon.ru/personal-offers/uploads/categories/03f7140d-9520-4866-8a8c-1fe06c3ba2fa.png",
+                "offers": [
+                    {
+                        "id": 21,
+                        "name": "FitStars",
+                        "shortdescription": "Онлайн-тренировки с блогерами и спортсменами",
+                        "detaileddescription": "Тренируйтесь со звёздами фитнеса прямо из дома в сервисе Fitstars! Попробуйте 3 дня бесплатно: более 40 программ в формате видеотренировок, занятия без гантелей и другого оборудования, а также секреты правильного питания. После бесплатного периода вы сможете продолжить тренировки по специальной цене 300 рублей в месяц.",
+                        "miniature": "https://life.megafon.ru/personal-offers/uploads/offers/73be6b8f-6bf1-4cc7-b02d-d3145b4df1f3.jpeg",
+                        "header": "https://life.megafon.ru/personal-offers/uploads/offers/a3810fd1-7ea9-4409-ba65-4e8c9652c4bd.jpeg",
+                        "offertype": "url",
+                        "serviceurl": "http://salon.megafon.ru/fitstars/?utm_source=CP&utm_medium=web&utm_campaign=cp_fitstar",
+                        "buttontext": "Подробнее",
+                        "priority": 1,
+                        "labels": []
+                    },
+                    {
+                        "id": 16,
+                        "name": "#Специи",
+                        "shortdescription": "Кэшбэк реальными деньгами за покупки в 500+ интернет-магазинах",
+                        "detaileddescription": "Регистрируйтесь в сервисе, выбирайте из 500+ онлайн-магазинов, совершайте покупки и получайте назад до 30%. Кэшбэк — это реальные деньги, которые мы вернём на ваш счёт телефона. Вы можете потратить их как угодно: оплатить связь, перевести близким на счёт телефона и даже снять наличные с банковской карты МегаФона. И да, это совершенно бесплатно!",
+                        "miniature": "https://life.megafon.ru/personal-offers/uploads/offers/989f9a8a-cb3d-4461-bfa3-18b75a9b91d9.jpeg",
+                        "header": "https://life.megafon.ru/personal-offers/uploads/offers/349a9f64-e381-4150-8bb8-be9fc343f8de.jpeg",
+                        "offertype": "url",
+                        "serviceurl": "http://special.megafon.ru/categories?utm_source=cp&utm_medium=web&utm_campaign=cp_special",
+                        "buttontext": "За покупками",
+                        "priority": 3,
+                        "labels": []
+                    },
+                    {
+                        "id": 20,
+                        "name": "МегаДиск",
+                        "shortdescription": "100 ГБ в МегаДиске бесплатно",
+                        "detaileddescription": "В облачном хранилище ваши фото, видео и документы всегда будут под рукой — их можно открывать на любых устройствах с доступом в интернет.",
+                        "miniature": "https://life.megafon.ru/personal-offers/uploads/offers/0a5cc6b8-ea21-4182-8e3c-f34fc1c35a00.jpeg",
+                        "header": "https://life.megafon.ru/personal-offers/uploads/offers/62bbb76a-fd11-4eb1-8eea-a2de208fb8ce.jpeg",
+                        "offertype": "url",
+                        "serviceurl": "http://disk.megafon.ru/?utm_source=cp&utm_medium=web&utm_campaign=cp_disk",
+                        "buttontext": "Подробнее",
+                        "priority": 5,
+                        "labels": []
+                    },
+                    {
+                        "id": 13,
+                        "name": "Образование",
+                        "shortdescription": "Онлайн-курсы для карьерного роста и саморазвития",
+                        "detaileddescription": "Мы собрали для вас десятки онлайн-курсов от известных образовательных платформ. Изучайте ИТ, маркетинг, менеджмент и финансы, чтобы построить карьеру. Прослушайте лекции об истории кино, живописи и моде, чтобы поддержать любой разговор о культуре. Школьники смогут разобрать сложные задачи и подготовиться к ЕГЭ. Учитесь в удобное время по индивидуальному расписанию, получайте сертификаты и добивайтесь успеха!",
+                        "miniature": "https://life.megafon.ru/personal-offers/uploads/offers/d16c765d-ee9b-413a-85f3-d17ee9168532.jpeg",
+                        "header": "https://life.megafon.ru/personal-offers/uploads/offers/a259f32d-0ad1-4dcf-8a47-932db9c38257.jpeg",
+                        "offertype": "url",
+                        "serviceurl": "http://education.megafon.ru/?utm_source=cp&utm_medium=web&utm_campaign=cp_education",
+                        "buttontext": "Подробнее",
+                        "priority": 6,
+                        "labels": []
+                    },
+                    {
+                        "id": 19,
+                        "name": "Путешествия",
+                        "shortdescription": "Билеты, отели, туры, экскурсии с кэшбэком",
+                        "detaileddescription": "Выбирайте выгодные варианты для поездок и отдыха и получайте кэшбэк реальными деньгами на счёт телефона. Наш поиск в режиме онлайн сравнивает цены и подбирает для вас оптимальные варианты билетов, отелей, туров, а также экскурсий и страховок. Партнёры платят комиссию за приведённых покупателей, а мы за счёт этого возвращаем вам деньги. Потратьте их как угодно: оплатите связь, переведите близким на счёт телефона или снимите наличные с банковской карты МегаФона. И да, это совершенно бесплатно!",
+                        "miniature": "https://life.megafon.ru/personal-offers/uploads/offers/659075c4-c323-4a1c-a736-c01df88f7561.jpeg",
+                        "header": "https://life.megafon.ru/personal-offers/uploads/offers/6cf86352-d1da-461a-a5ff-3f03cd01b0e6.jpeg",
+                        "offertype": "url",
+                        "serviceurl": "http://travel.megafon.ru/?utm_source=cp&utm_medium=web&utm_campaign=cp_travel",
+                        "buttontext": "Полетели",
+                        "priority": 8,
+                        "labels": []
+                    },
+                    {
+                        "id": 22,
+                        "name": "Денежные переводы",
+                        "shortdescription": "Переводы близким и оплата услуг со счёта телефона",
+                        "detaileddescription": "Даже если под рукой нет банковской карты, счёт телефона легко станет вашим кошельком! Делайте переводы друзьям и близким, оплачивайте интернет, ТВ, коммунальные услуги и кредиты прямо со счёта мобильного телефона.",
+                        "miniature": "https://life.megafon.ru/personal-offers/uploads/offers/8f79caf8-8e07-45e9-9dab-616eb335c4cf.jpeg",
+                        "header": "https://life.megafon.ru/personal-offers/uploads/offers/e9f2c2a6-c168-442b-b8f9-45f3699cbe42.jpeg",
+                        "offertype": "url",
+                        "serviceurl": "http://money.megafon.ru/?utm_source=cp&utm_medium=web&utm_campaign=cp_mfmoney",
+                        "buttontext": "Подробнее",
+                        "priority": 9,
+                        "labels": []
+                    }
+                ]
+            }
 
       ] 
 
